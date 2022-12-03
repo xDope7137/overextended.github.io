@@ -17,7 +17,6 @@ exports.ox_inventory:RemoveItem(inv, item, count, metadata, slot)
   - Only remove items with matching metadata properties.
 - slot?: `number`
   - A specific slot to remove the item from. If the slot is invalid, the first available slot will be used instead.
-- cb?: function(success: `boolean`, response?: `string`)
 
 Returns `success` as a boolean, stating whether the item was successfully removed.
 
